@@ -1,7 +1,8 @@
 :root {
-    --colororange: #E6442D;
+    --colorred: #e62d5b;
     --colorblack: #000000;
     --colorwhite: #f2f2f2;
+    --colorlgray: #aaaaaa;
     --colorgray: #444444;
     --colordgray: #363839;
 }
@@ -10,7 +11,7 @@ body {
     position: relative;
     margin: 0;
     background-color: var(--colorwhite);
-    color: var(--colorblack);
+    color: var(--colorgray);
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
     line-height: 1.5;
@@ -21,27 +22,25 @@ body {
     flex-direction: row;
 }
 
-div.navbar {
-    background-color: var(--colororange);
+.navbar {
+    background-color: var(--colorred);
     width: 100%;
     height: 64px;
     justify-content: center;
 }
 
-div.navholder {
+.navbar > .container {
     width: 100%;
     max-width: 900px;
 }
 
-div.navobj {
+.navobj {
     color: var(--colorwhite);
     height: 64px;
     margin-left: 12px;
     justify-content: center;
     align-items: center;
-    
 }
-
 
 /*logo */
 #logo {

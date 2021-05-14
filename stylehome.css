@@ -9,12 +9,17 @@ div.mainimg {
     color: var(--colorwhite);
 }
 
-div.mainimg > .imgtext {
+.mainimg .imgtext {
     margin: 0 auto;
     text-align: center;
 }
 
-div.main {
+.imgtext h1 {
+    font-size: 3rem;
+}
+
+
+.main {
     width: 80%;
     height: 100%;
     max-width: 75ch;
@@ -24,14 +29,45 @@ div.main {
     margin-right: auto;
 }
 
-div.access {
+.main > .container {
+    flex-direction: column;
+}
+
+
+.access {
+    color: var(--colorwhite);
     background-color: var(--colordgray);
     bottom: 0;
     width: 100%;
     min-height: 180px;
+    justify-content: center;
 }
 
-div#contact {
+.access > .container {
+    width: 80%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#contact {
     color: var(--colorwhite);
-    margin-left: 20px;
+    width: 50%;
+    min-width: 340px;
+    line-height: 1;
+}
+
+#contact p {
+    color: var(--colorlgray);
+}
+
+@media only screen and (max-width: 700px) {
+    .imgtext h1 {
+        font-size: 2.5rem;
+    }
+}
+
+@media only screen and (max-width: 350px) {
+    .imgtext h1 {
+        font-size: 2rem;
+    }
 }
