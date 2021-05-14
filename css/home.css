@@ -51,8 +51,12 @@ div.mainimg {
     }
 }
 
-@media only screen and (max-width: 350px) {
+@media only screen and (max-width: 400px) {
     .imgtext h1 {
         font-size: 2rem;
+    }
+
+    .imgtext h3 {
+        font-size: 1rem;
     }
 }
