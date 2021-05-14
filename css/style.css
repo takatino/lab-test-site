@@ -42,6 +42,15 @@ body {
     align-items: center;
 }
 
+.navobj a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.navobj a:hover {
+    text-decoration: underline;
+}
+
 .main {
     width: 80%;
     height: 100%;
