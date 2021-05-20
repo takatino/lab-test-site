@@ -1,0 +1,12 @@
+.main p {
+    line-height: 2.0;
+}
+
+.main {
+    margin-bottom: 50px;
+}
+
+.main img {
+    width: 90%;
+    margin: 20px auto;
+}
