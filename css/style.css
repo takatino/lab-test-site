@@ -30,13 +30,13 @@ body {
 .navbar {
     background-color: var(--colorred);
     width: 100%;
-    height: 64px;
     justify-content: center;
 }
 
 .navbar > .container {
     width: 100%;
     max-width: 900px;
+    flex-wrap: wrap;
 }
 
 .navobj {
@@ -82,6 +82,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    margin-right: 12px;
 }
 
 #logo > .logorow {
@@ -95,4 +96,10 @@ body {
     width: 10px;
     height: 10px;
     border-radius: 50%;
+}
+
+@media only screen and (max-width: 420px) {
+    .navbar > .container > .navobj:nth-child(1) {
+        margin-right: 50%;
+    }
 }

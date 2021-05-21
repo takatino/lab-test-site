@@ -45,27 +45,7 @@ div.mainimg {
     color: var(--colorlgray);
 }
 
-table {
-    margin: 20px 0;
-    font-size: 12px;
-    border-collapse: collapse;
-    width: 100%;
-  }
-  
-td, th {
-    border: 1px solid var(--colorlgray);
-    text-align: center;
-    padding: 8px;
-    min-width: 4ch;
-}
 
-th:nth-child(3) {
-    min-width: 12ch;
-}
-
-tr:nth-child(even) {
-    background-color: #dddddd;
-}
 
 @media only screen and (max-width: 700px) {
     .imgtext h1 {
